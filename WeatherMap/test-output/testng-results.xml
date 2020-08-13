@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5782" started-at="2020-05-28T08:06:45 IST" finished-at="2020-05-28T08:06:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5782" started-at="2020-05-28T08:06:45 IST" finished-at="2020-05-28T08:06:51 IST">
+      <class name="WeatherMAP.WeatherReport">
+        <test-method status="PASS" signature="weather(java.lang.String)[pri:0, instance:WeatherMAP.WeatherReport@79be0360]" name="weather" duration-ms="3659" started-at="2020-05-28T08:06:46 IST" data-provider="fetchdata" finished-at="2020-05-28T08:06:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madurai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather -->
+        <test-method status="PASS" signature="weather(java.lang.String)[pri:0, instance:WeatherMAP.WeatherReport@79be0360]" name="weather" duration-ms="319" started-at="2020-05-28T08:06:50 IST" data-provider="fetchdata" finished-at="2020-05-28T08:06:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather -->
+        <test-method status="PASS" signature="weather(java.lang.String)[pri:0, instance:WeatherMAP.WeatherReport@79be0360]" name="weather" duration-ms="297" started-at="2020-05-28T08:06:50 IST" data-provider="fetchdata" finished-at="2020-05-28T08:06:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather -->
+        <test-method status="PASS" signature="weather(java.lang.String)[pri:0, instance:WeatherMAP.WeatherReport@79be0360]" name="weather" duration-ms="445" started-at="2020-05-28T08:06:50 IST" data-provider="fetchdata" finished-at="2020-05-28T08:06:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather -->
+        <test-method status="PASS" signature="weather(java.lang.String)[pri:0, instance:WeatherMAP.WeatherReport@79be0360]" name="weather" duration-ms="293" started-at="2020-05-28T08:06:51 IST" data-provider="fetchdata" finished-at="2020-05-28T08:06:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather -->
+      </class> <!-- WeatherMAP.WeatherReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
